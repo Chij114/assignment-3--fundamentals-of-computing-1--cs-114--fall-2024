@@ -12,6 +12,9 @@ public class RunMatrix {
 
     input.close();
 
+    System.out.println("Printing matrix with default values:");
+    System.out.println();
+
     myMatrix.printMatrix();
 
     myMatrix.populateMatrix();
